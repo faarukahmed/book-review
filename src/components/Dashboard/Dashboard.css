@@ -1,0 +1,6 @@
+.chart{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px 10%;
+}

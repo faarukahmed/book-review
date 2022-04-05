@@ -1,0 +1,20 @@
+.review{
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    align-items: center;
+    grid-column-gap: 5px;
+}
+.review-info{
+    text-align: start;
+}
+.review-info h5, h6, p{
+    margin: 0;
+}
+.review img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}

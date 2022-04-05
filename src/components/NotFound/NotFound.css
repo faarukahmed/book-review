@@ -1,0 +1,11 @@
+.notFound{
+    text-align: center;
+    padding: 50px 10%;
+}
+.notFound a{
+    background: #40739e;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}

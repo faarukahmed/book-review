@@ -1,0 +1,62 @@
+.home-container{
+    padding: 100px 10%;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+@media only screen and (max-width: 900px) {
+    .banner-container {
+        flex-wrap: wrap;
+    }
+  }
+@media only screen and (max-width: 500px) {
+    .banner-image img{
+        width: 200px;
+    }
+  }
+.banner-text{
+    padding: 20px;
+}
+.banner-text h1{
+    margin: 0;
+    color: orange;
+}
+.banner-text p{
+    color: #353b48;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.btn{
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid orange;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.btn:hover{
+    color: orange;
+    cursor: pointer;
+}
+.banner-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.reviews-container{
+    text-align: center;
+    margin-top: 100px;
+}
+.reviews{
+    display: grid;
+    grid-gap: 20px;
+}
+.btn-review{
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}

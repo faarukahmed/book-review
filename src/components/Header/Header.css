@@ -1,0 +1,27 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    background: #40739e;
+    /* height: 60px; */
+}
+@media only screen and (max-width: 960px) {
+    .nav-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  }
+.nav-container h1 a{
+    text-decoration: none;
+    color: orange;
+}
+.nav-link{
+    display: flex;
+}
+.nav-link a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
